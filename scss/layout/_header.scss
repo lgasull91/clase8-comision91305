@@ -1,23 +1,6 @@
 @use '../utilities/variables' as *;
 @use '../utilities/mixins' as *;
 
-.navbar {
-    background-color: $color-navbar;
-
-    &-brand img {
-        height: 150px;
-        width: auto;
-        max-width: 100%;
-        border: 2px solid black;
-        border-radius: 12px;
-        display: block;
-
-        @include respond(576px) {
-            height: 90px;
-        }
-    }
-}
-
 @keyframes aparecer-logo {
     from {
         opacity: 0;
@@ -40,7 +23,7 @@
         border: 2px solid black;
         border-radius: 12px;
         display: block;
-        animation: aparecer-logo 0.6s ease-out;  // ← acá se activa
+        animation: aparecer-logo 0.6s ease-out;
 
         @include respond(576px) {
             height: 90px;
