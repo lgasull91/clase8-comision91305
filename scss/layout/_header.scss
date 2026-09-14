@@ -18,10 +18,6 @@
     }
 }
 
-@use '../utilities/variables' as *;
-@use '../utilities/mixins' as *;
-
-
 @keyframes aparecer-logo {
     from {
         opacity: 0;
